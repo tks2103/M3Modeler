@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87C74BD0162DAEC600A1893C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C74BCF162DAEC600A1893C /* UIKit.framework */; };
+		87C74BD2162DAEC600A1893C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C74BD1162DAEC600A1893C /* Foundation.framework */; };
+		87C74BD4162DAEC600A1893C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C74BD3162DAEC600A1893C /* CoreGraphics.framework */; };
+		87C74BDA162DAEC600A1893C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87C74BD8162DAEC600A1893C /* InfoPlist.strings */; };
+		87C74BDC162DAEC600A1893C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BDB162DAEC600A1893C /* main.m */; };
+		87C74BE0162DAEC600A1893C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BDF162DAEC600A1893C /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87C74BCB162DAEC600A1893C /* M3Modeler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M3Modeler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C74BCF162DAEC600A1893C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87C74BD1162DAEC600A1893C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87C74BD3162DAEC600A1893C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87C74BD7162DAEC600A1893C /* M3Modeler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M3Modeler-Info.plist"; sourceTree = "<group>"; };
+		87C74BD9162DAEC600A1893C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87C74BDB162DAEC600A1893C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C74BDD162DAEC600A1893C /* M3Modeler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M3Modeler-Prefix.pch"; sourceTree = "<group>"; };
+		87C74BDE162DAEC600A1893C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87C74BDF162DAEC600A1893C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C74BC8162DAEC600A1893C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C74BD0162DAEC600A1893C /* UIKit.framework in Frameworks */,
+				87C74BD2162DAEC600A1893C /* Foundation.framework in Frameworks */,
+				87C74BD4162DAEC600A1893C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C74BC0162DAEC600A1893C = {
+			isa = PBXGroup;
+			children = (
+				87C74BD5162DAEC600A1893C /* M3Modeler */,
+				87C74BCE162DAEC600A1893C /* Frameworks */,
+				87C74BCC162DAEC600A1893C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C74BCC162DAEC600A1893C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C74BCB162DAEC600A1893C /* M3Modeler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C74BCE162DAEC600A1893C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C74BCF162DAEC600A1893C /* UIKit.framework */,
+				87C74BD1162DAEC600A1893C /* Foundation.framework */,
+				87C74BD3162DAEC600A1893C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87C74BD5162DAEC600A1893C /* M3Modeler */ = {
+			isa = PBXGroup;
+			children = (
+				87C74BDE162DAEC600A1893C /* AppDelegate.h */,
+				87C74BDF162DAEC600A1893C /* AppDelegate.m */,
+				87C74BD6162DAEC600A1893C /* Supporting Files */,
+			);
+			path = M3Modeler;
+			sourceTree = "<group>";
+		};
+		87C74BD6162DAEC600A1893C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C74BD7162DAEC600A1893C /* M3Modeler-Info.plist */,
+				87C74BD8162DAEC600A1893C /* InfoPlist.strings */,
+				87C74BDB162DAEC600A1893C /* main.m */,
+				87C74BDD162DAEC600A1893C /* M3Modeler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C74BCA162DAEC600A1893C /* M3Modeler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C74BE3162DAEC600A1893C /* Build configuration list for PBXNativeTarget "M3Modeler" */;
+			buildPhases = (
+				87C74BC7162DAEC600A1893C /* Sources */,
+				87C74BC8162DAEC600A1893C /* Frameworks */,
+				87C74BC9162DAEC600A1893C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M3Modeler;
+			productName = M3Modeler;
+			productReference = 87C74BCB162DAEC600A1893C /* M3Modeler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C74BC2162DAEC600A1893C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tanoy Sinha";
+			};
+			buildConfigurationList = 87C74BC5162DAEC600A1893C /* Build configuration list for PBXProject "M3Modeler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87C74BC0162DAEC600A1893C;
+			productRefGroup = 87C74BCC162DAEC600A1893C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C74BCA162DAEC600A1893C /* M3Modeler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C74BC9162DAEC600A1893C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C74BDA162DAEC600A1893C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C74BC7162DAEC600A1893C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C74BDC162DAEC600A1893C /* main.m in Sources */,
+				87C74BE0162DAEC600A1893C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87C74BD8162DAEC600A1893C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C74BD9162DAEC600A1893C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C74BE1162DAEC600A1893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C74BE2162DAEC600A1893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C74BE4162DAEC600A1893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M3Modeler/M3Modeler-Prefix.pch";
+				INFOPLIST_FILE = "M3Modeler/M3Modeler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87C74BE5162DAEC600A1893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M3Modeler/M3Modeler-Prefix.pch";
+				INFOPLIST_FILE = "M3Modeler/M3Modeler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C74BC5162DAEC600A1893C /* Build configuration list for PBXProject "M3Modeler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C74BE1162DAEC600A1893C /* Debug */,
+				87C74BE2162DAEC600A1893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C74BE3162DAEC600A1893C /* Build configuration list for PBXNativeTarget "M3Modeler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C74BE4162DAEC600A1893C /* Debug */,
+				87C74BE5162DAEC600A1893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C74BC2162DAEC600A1893C /* Project object */;
+}
