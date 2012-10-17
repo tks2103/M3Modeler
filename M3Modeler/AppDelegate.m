@@ -12,12 +12,42 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
+    
+    EAGLContext *context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
+    [EAGLContext setCurrentContext:context];
+    
+    glEnable(GL_DEPTH_TEST);
+    
+    GLKView *view = [[GLKView alloc] initWithFrame:[[UIScreen mainScreen] bounds] context:context];
+    view.drawableDepthFormat = GLKViewDrawableDepthFormat16;
+    view.delegate = self;
+    view.context = context;
+    
+    M3SceneController *controller = [[M3SceneController alloc] init];
+    controller.delegate = self;
+    controller.view = view;
+    //    controller.preferredFramesPerSecond = 30;
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = controller;
     [self.window makeKeyAndVisible];
+    
+    scene = [[M3Scene alloc]init];
+    
     return YES;
 }
+
+- (void)glkViewControllerUpdate:(GLKViewController *)controller
+{
+    [scene update];
+}
+
+- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect
+{
+    [scene render];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

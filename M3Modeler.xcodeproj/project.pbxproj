@@ -13,6 +13,13 @@
 		87C74BDA162DAEC600A1893C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87C74BD8162DAEC600A1893C /* InfoPlist.strings */; };
 		87C74BDC162DAEC600A1893C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BDB162DAEC600A1893C /* main.m */; };
 		87C74BE0162DAEC600A1893C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BDF162DAEC600A1893C /* AppDelegate.m */; };
+		87C74BE7162DAEE500A1893C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C74BE6162DAEE500A1893C /* GLKit.framework */; };
+		87C74BE9162DAEEB00A1893C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C74BE8162DAEEB00A1893C /* QuartzCore.framework */; };
+		87C74BEB162DAEFF00A1893C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C74BEA162DAEFF00A1893C /* OpenGLES.framework */; };
+		87C74BF4162DAF7E00A1893C /* M3SceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BF3162DAF7E00A1893C /* M3SceneController.m */; };
+		87C74BF8162DB2F700A1893C /* M3Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BF7162DB2F700A1893C /* M3Scene.m */; };
+		87C74BFB162DB34800A1893C /* M3Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BFA162DB34800A1893C /* M3Sprite.m */; };
+		87C74BFF162DBD5B00A1893C /* M3FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C74BFE162DBD5A00A1893C /* M3FileReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		87C74BDD162DAEC600A1893C /* M3Modeler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M3Modeler-Prefix.pch"; sourceTree = "<group>"; };
 		87C74BDE162DAEC600A1893C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87C74BDF162DAEC600A1893C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87C74BE6162DAEE500A1893C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		87C74BE8162DAEEB00A1893C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		87C74BEA162DAEFF00A1893C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		87C74BF2162DAF7E00A1893C /* M3SceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3SceneController.h; sourceTree = "<group>"; };
+		87C74BF3162DAF7E00A1893C /* M3SceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3SceneController.m; sourceTree = "<group>"; };
+		87C74BF5162DB00D00A1893C /* M3Struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3Struct.h; sourceTree = "<group>"; };
+		87C74BF6162DB2F700A1893C /* M3Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3Scene.h; sourceTree = "<group>"; };
+		87C74BF7162DB2F700A1893C /* M3Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3Scene.m; sourceTree = "<group>"; };
+		87C74BF9162DB34800A1893C /* M3Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3Sprite.h; sourceTree = "<group>"; };
+		87C74BFA162DB34800A1893C /* M3Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3Sprite.m; sourceTree = "<group>"; };
+		87C74BFD162DBD5A00A1893C /* M3FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3FileReader.h; sourceTree = "<group>"; };
+		87C74BFE162DBD5A00A1893C /* M3FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3FileReader.m; sourceTree = "<group>"; };
+		87C74C00162DBF3200A1893C /* ArcliteSiegeTank.m3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArcliteSiegeTank.m3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C74BEB162DAEFF00A1893C /* OpenGLES.framework in Frameworks */,
+				87C74BE9162DAEEB00A1893C /* QuartzCore.framework in Frameworks */,
+				87C74BE7162DAEE500A1893C /* GLKit.framework in Frameworks */,
 				87C74BD0162DAEC600A1893C /* UIKit.framework in Frameworks */,
 				87C74BD2162DAEC600A1893C /* Foundation.framework in Frameworks */,
 				87C74BD4162DAEC600A1893C /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +85,9 @@
 		87C74BCE162DAEC600A1893C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87C74BEA162DAEFF00A1893C /* OpenGLES.framework */,
+				87C74BE8162DAEEB00A1893C /* QuartzCore.framework */,
+				87C74BE6162DAEE500A1893C /* GLKit.framework */,
 				87C74BCF162DAEC600A1893C /* UIKit.framework */,
 				87C74BD1162DAEC600A1893C /* Foundation.framework */,
 				87C74BD3162DAEC600A1893C /* CoreGraphics.framework */,
@@ -74,6 +100,15 @@
 			children = (
 				87C74BDE162DAEC600A1893C /* AppDelegate.h */,
 				87C74BDF162DAEC600A1893C /* AppDelegate.m */,
+				87C74BF2162DAF7E00A1893C /* M3SceneController.h */,
+				87C74BF3162DAF7E00A1893C /* M3SceneController.m */,
+				87C74BF6162DB2F700A1893C /* M3Scene.h */,
+				87C74BF7162DB2F700A1893C /* M3Scene.m */,
+				87C74BF9162DB34800A1893C /* M3Sprite.h */,
+				87C74BFA162DB34800A1893C /* M3Sprite.m */,
+				87C74BF5162DB00D00A1893C /* M3Struct.h */,
+				87C74BFD162DBD5A00A1893C /* M3FileReader.h */,
+				87C74BFE162DBD5A00A1893C /* M3FileReader.m */,
 				87C74BD6162DAEC600A1893C /* Supporting Files */,
 			);
 			path = M3Modeler;
@@ -82,6 +117,7 @@
 		87C74BD6162DAEC600A1893C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				87C74C00162DBF3200A1893C /* ArcliteSiegeTank.m3 */,
 				87C74BD7162DAEC600A1893C /* M3Modeler-Info.plist */,
 				87C74BD8162DAEC600A1893C /* InfoPlist.strings */,
 				87C74BDB162DAEC600A1893C /* main.m */,
@@ -154,6 +190,10 @@
 			files = (
 				87C74BDC162DAEC600A1893C /* main.m in Sources */,
 				87C74BE0162DAEC600A1893C /* AppDelegate.m in Sources */,
+				87C74BF4162DAF7E00A1893C /* M3SceneController.m in Sources */,
+				87C74BF8162DB2F700A1893C /* M3Scene.m in Sources */,
+				87C74BFB162DB34800A1893C /* M3Sprite.m in Sources */,
+				87C74BFF162DBD5B00A1893C /* M3FileReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
